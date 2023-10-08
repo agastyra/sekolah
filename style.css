@@ -1,0 +1,42 @@
+* {
+  font-family: "Roboto", sans-serif;
+}
+
+.form-register {
+  display: flex;
+}
+
+form {
+  margin: auto;
+  border: 1px solid rgba(128, 128, 128, 0.199);
+  border-radius: 10px;
+  width: max-content;
+  padding: 20px;
+}
+
+.form-group {
+  margin: 15px 0;
+}
+
+.form-group label {
+  display: block;
+  margin-bottom: 5px;
+}
+
+.form-group input {
+  display: block;
+  outline: none;
+  border: 1px solid rgba(128, 128, 128, 0.199);
+  border-radius: 10px;
+  padding: 5px 7px;
+  box-shadow: 1px 1px 1px 1px rgba(170, 170, 170, 0.315);
+}
+
+form button {
+  outline: none;
+  border: 1px solid rgba(128, 128, 128, 0.199);
+  border-radius: 10px;
+  padding: 5px 7px;
+  background-color: rgba(26, 26, 139, 0.801);
+  color: white;
+}
